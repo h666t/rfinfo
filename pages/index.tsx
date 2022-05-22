@@ -17,7 +17,7 @@ import axios from 'axios';
 const Home: NextPage = (prop) => {
   return (<>
     <div className={styles.topBar}>
-        <div className={'logo'}></div>
+        <div className={styles.logo}></div>
         <div className={'menu'}></div>
     </div>
     <div className={styles.firstScreen}></div>
